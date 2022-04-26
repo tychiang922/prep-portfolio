@@ -3,24 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <header class="row">
+  <div class="container text-align-center">
+    <header class="row justify-between align-center white-text page-header">
       <h1 class="col-4">
         Tim Chiang
       </h1>
-      <nav class="col-6">
-        <a href="#about">About</a>
-        <a href="#tech">Technologies</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+      <nav class="row col-6 justify-evenly">
+        <a class="white-text nav-item" href="#about">About</a>
+        <a class="white-text nav-item" href="#tech">Technologies</a>
+        <a class="white-text nav-item" href="#projects">Projects</a>
+        <a class="white-text nav-item" href="#contact">Contact</a>
       </nav>
     </header>
+    <div class="row justify-center align-center white-text hero-image">
+      <h1 class="student-name">
+        TIM CHIANG
+      </h1>
+    </div>
+    <div id="about" class="row justify-evenly align-center pb-50 about-section">
+      <h1 class="col-12">About me</h1>
+      <img src="Tim-Chiang-Photo.jpg" alt="Tim Chiang Photo" class="col-3 about-image">
+      <div class="col-5 text-align-center">
+        <p>I was born in California, grew up in the Los Angeles region, and attended school at UCLA. Some of my hobbies include playing tennis, weightlifting, and gaming with friends.
+          I love to learn and travel. So far, I've been to
+          6 countries around the world. I enjoy reading and also enjoy being up to date on the latest tech news.</p>
+        <p>Before going into the programming field, my field of education was in microbiology and most of my career experiences revolved around research of bacteriophages.
+          However, I found an interest in programming and decided to pursue a career pathway around front/back-end development.
+        </p>
+      </div>
+    </div>
+    <div id="tech" class="row justify-evenly pb-50 tech-section">
+      <h1 class="col-12">TECHNOLOGIES</h1>
+      <img src="assets/html-logo.png" alt="HTML 5 logo" class="col-1">
+      <img src="assets/css-logo.png" alt="CSS 3 logo" class="col-1">
+      <img src="assets/js-logo.png" alt="Javascript logo" class="col-1">
+    </div>
+    <div id="projects" class="row justify-evenly pb-50 projects-section">
+      <h1 class="col-12">
+        MY PROJECTS
+      </h1>
+      <img src="assets/placeholder-project.png" alt="Placeholder Project" class="col-2">
+      <img src="assets/placeholder-project.png" alt="Placeholder Project" class="col-2">
+      <img src="assets/placeholder-project.png" alt="Placeholder Project" class="col-2">
+    </div>
+    <div id="contact" class="row justify-center pb-50 white-text contact-section">
+      <h1 class="col-12">
+        CONTACT ME
+      </h1>
+      <p class="col-12">
+        Find more of my work on <a href="https://github.com/tychiang922" class="nav-item blue-text">Github</a>
+      </p>
+    </div>
   </div>
 
 </body>
